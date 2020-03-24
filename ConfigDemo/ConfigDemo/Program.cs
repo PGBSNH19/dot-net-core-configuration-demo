@@ -12,11 +12,8 @@ namespace ConfigDemo
                             .Build();
 
             var defaultConnection = configuration.GetConnectionString("DefaultConnection");
+            var apiKey = configuration.GetSection("MySettings")["ApiKey"];
 
-
-            // Read config file
-               // configuration bulider
-            // Use config file
 
             Console.WriteLine($"Hello World! {defaultConnection}");
         }
