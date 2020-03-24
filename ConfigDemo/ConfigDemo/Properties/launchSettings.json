@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConfigDemo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value",
+        "ConfigEnv": "stephan"
+      }
+    }
+  }
+}
